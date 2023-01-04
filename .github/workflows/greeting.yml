@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ArturWincenciak/hello-world-docker-action@v3.0.1
+        uses: ArturWincenciak/hello-world-docker-action@v3.0.2
         with:
           who_to_greet: 'Teo Vincent'
           some_second_arg: 'That is value of second argument'
