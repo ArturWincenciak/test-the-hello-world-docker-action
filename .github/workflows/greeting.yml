@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ArturWincenciak/hello-world-docker-action@v3.0.0
+        uses: ArturWincenciak/hello-world-docker-action@v3.0.1
         with:
           who-to-greet: 'Teo Vincent'
-          wrong-arg: 'TTT-O-XXX'
+          some_second_arg: 'That is value of second argument'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
